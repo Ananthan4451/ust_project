@@ -191,11 +191,10 @@ btnclear.place(x=300, y=420)
 list1 = Listbox(root, height=20, width=85)
 list1.place(x=550, y=130)
 
-sb1 = Scrollbar(root, orient="vertical")
-sb1.place(x=1050, y=130)
 
-list1.configure(yscrollcommand=sb1.set)
-sb1.configure(command=list1.yview)
+
+
+
 
 list1.bind('<<ListboxSelect>>', get_selected_row)
 
