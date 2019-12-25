@@ -190,12 +190,6 @@ btnclear.place(x=300, y=420)
 # list
 list1 = Listbox(root, height=20, width=85)
 list1.place(x=550, y=130)
-
-
-
-
-
-
 list1.bind('<<ListboxSelect>>', get_selected_row)
 
 root.mainloop()
