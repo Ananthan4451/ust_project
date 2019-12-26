@@ -166,6 +166,7 @@ address_text = StringVar()
 txtaddress = Entry(root, font=('ariel', 16, 'bold'), bd=6, insertwidth=4,
                    textvariable=address_text)
 txtaddress.place(x=250, y=280)
+#button
 
 btninsert = Button(root, bd=8, fg="black", font=('ariel', 16, 'bold'), width=8, text="Insert",
                   command=add_command)
